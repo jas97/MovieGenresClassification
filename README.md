@@ -61,5 +61,5 @@ On the test data set model showed following results
 
 
 ## Results demonstration
-![](https://github.com/jas97/MovieGenresClassification/tree/master/images/quietPlace "Quiet place")
-![](https://github.com/jas97/MovieGenresClassification/tree/master/images/venom_example "Venom")
+![](/images/quietPlace "Quiet place")
+![](images/venom_example "Venom")
