@@ -1,7 +1,7 @@
 # Movie Genre Classification based on Poster
 
 
-This projects focuses on predicting the genres of the movie based on the movie poster. The [data set](https://www.kaggle.com/neha1703/movie-genre-from-its-poster/metadata) contains information about 39515 movies including their posters and genres. Each movie can have as much as 3 out of 27 genres which makes this a multi-label classification problem. The project classified only movies that came out after the year 2000. 
+This projects focuses on predicting the genres of the movie based on the movie poster. The [data set](https://www.kaggle.com/neha1703/movie-genre-from-its-poster/metadata) contains information about 39515 movies including their posters and genres. Each movie can have as much as 3 out of 27 genres which makes this a multi-label classification problem. The project classified only movies that came out after the year 2000. Convolutional Neural Network was used to train the classificator and Hamming loss, One-rank loss and Coverage were used to estimate the performance of the model.
 
 ![](images/impress_age.png "Distribution of impression with regard to age")
 ![](images/impress_age.png "Distribution of impression with regard to age")
@@ -10,26 +10,9 @@ This projects focuses on predicting the genres of the movie based on the movie p
 ## Prerequisites 
 
 * numpy
-```bash
-pip install numpy
-```
 * pandas
-```bash
-pip install pandas
-```
 * tensoflow
-```bash
-pip install tensorflow
-```
 * keras 
-```bash
-pip install keras
-```
-
-## Data Visualisations
-
-![](images/impress_age.png "Distribution of impression with regard to age")
-![](images/impress_age.png "Distribution of impression with regard to age")
 
 ## Model
 
@@ -71,5 +54,12 @@ None
 
 ## Results
 
+On the test data set model showed following results 
+* Hamming Loss = 0.0753
+* One-rank Loss = 0.4976
+* Coverage = 7.5483
+
 
 ## Results demonstration
+![](https://github.com/jas97/MovieGenresClassification/tree/master/images/quietPlace "Quiet place")
+![](https://github.com/jas97/MovieGenresClassification/tree/master/images/venom_example "Venom")
