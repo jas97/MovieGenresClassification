@@ -61,5 +61,5 @@ On the test data set model showed following results
 
 
 ## Results demonstration
-![](images/quietPlace "Quiet place")
-![](images/venom_example "Venom")
+![](images/quietPlace.png "Quiet place")
+![](images/venom_example.png "Venom")
