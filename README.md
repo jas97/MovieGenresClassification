@@ -54,7 +54,7 @@ None
 
 ## Results
 
-On the test data set model showed following results 
+On the test data set model showed following results:
 * Hamming Loss = 0.0753
 * One-rank Loss = 0.4976
 * Coverage = 7.5483
